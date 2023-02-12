@@ -19,8 +19,8 @@ const Home: NextPage = () => {
       <PageLayout>
         {/* Section 1 */}
         <section>
-          <div className="flex justify-around flex-wrap md:flex-nowrap">
-            <div className="mt-36 flex flex-col items-center">
+          <div className="flex justify-around flex-wrap md:flex-nowrap min-h-screen">
+            <div className="flex flex-col items-center justify-center">
               <h1 className="text-5xl font-bold mt-5 w-9/12">
                 Get Ready for{" "}
                 <span className="text-red-700">Next Generation</span> of the
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                 </Link>
               </div>
             </div>
-            <div className="mt-28">
+            <div className="flex items-center w-80 lg:w-fit">
               <Lottie
                 loop
                 animationData={lottieJson}
@@ -142,16 +142,16 @@ const Home: NextPage = () => {
           <h1 className="text-5xl font-bold text-center mt-20">
             <span className="text-red-700">Strategic</span> Partners
           </h1>
-          <div className="flex mt-20 flex-wrap">
+          <div className="flex mt-20 flex-wrap justify-center items-center">
             <Image
               alt="partner"
               width="220"
               height="200"
               src="/assets/panacloud.svg"
-              className="mx-20 opacity-50 hover:opacity-100 transition-all"
+              className="mx-20 opacity-50 hover:opacity-100 transition-all my-5"
             />
             <Image
-              className="mx-20 opacity-50 hover:opacity-100 transition-all"
+              className="mx-20 opacity-50 hover:opacity-100 transition-all w-56 md:w-fit"
               alt="partner"
               width="250"
               height="200"
