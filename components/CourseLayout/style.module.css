@@ -1,0 +1,9 @@
+.container{
+    flex:1;
+    min-height: 100vh;
+    margin-left: 50px;
+    padding:10px;
+}
+.container p{
+    margin:10px 0;
+}

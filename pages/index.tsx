@@ -53,7 +53,7 @@ const Home: NextPage = () => {
             <span className="text-red-700">Earn</span> While
             <span className="text-red-700"> You</span> Learn
           </h1>
-          <p className="text-center w-8/12 text-xl mt-4">
+          <p className="text-center lg:w-8/12 w-full text-xl mt-4">
             In this brand-new type of curriculum, students will learn how to
             make money and boost exports in the classroom and will begin doing
             so within <span className="text-red-700">six months</span> of the
@@ -65,16 +65,47 @@ const Home: NextPage = () => {
           </h1>
           {/* Section for displaying Courses */}
           <div className="flex flex-wrap justify-center mt-4">
-            <CourseCard />
-            <CourseCard />
-            <CourseCard />
-            <CourseCard />
-            <CourseCard />
+            <CourseCard
+              title="Web 3.0 (Blockchain) and Metaverse"
+              description="This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and
+              Metaverse experiences..."
+              link="/web"
+            />
+            <CourseCard
+              title="Artificial Intelligence (AI) and Deep Learning"
+              description="The AI and Deep Learning specialization focuses on building and deploying intelligent APIs
+              using OpenAI models..."
+              link="/artificial-intelligence"
+            />
+            <CourseCard
+              title="Cloud-Native Computing"
+              description="The Cloud-Native Computing Specialization focuses on Containers, Kubernetes, and CDK
+for Kubernetes..."
+              link="/cnc"
+            />
+            <CourseCard
+              title="Ambient Computing and IoT"
+              description="The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices,
+Factories, and Cities using Voice computing, Matter Protocol, and Embedded Devices."
+              link="/iot"
+            />
+            <CourseCard
+              title="Genomics and Bioinformatics"
+              description="Genomics is the study of the total genetic makeup of individual organisms, and how this
+genetic information is structured, functions, and has evolved; bioinformatics"
+              link="/bioinformatics"
+            />
+            <CourseCard
+              title="Network Programmability and Automation"
+              description="This course teaches network engineers how to automate systems with code using a variety of
+technologies and tools, including Linux, Python, APIs, and Git"
+              link="/networking"
+            />
           </div>
           <h1 className="text-5xl font-bold text-center mt-20">
             <span className="text-red-700">Scheme</span> of Study
           </h1>
-          <p className="text-center w-8/12 text-xl mt-4">
+          <p className="text-center lg:w-8/12 w-full text-xl mt-4">
             This curriculum is intended for beginners who want to learn software
             development from the ground up. The first three quarters are shared
             by all specialties and are dedicated to studying Object-Oriented
@@ -148,10 +179,10 @@ const Home: NextPage = () => {
               width="220"
               height="200"
               src="/assets/panacloud.svg"
-              className="mx-20 opacity-50 hover:opacity-100 transition-all my-5"
+              className="mx-20 opacity-50 hover:opacity-100 transition-all my-5 grayscale hover:grayscale-0"
             />
             <Image
-              className="mx-20 opacity-50 hover:opacity-100 transition-all w-56 md:w-fit"
+              className="mx-20 opacity-50 hover:opacity-100 transition-all w-56 md:w-fit grayscale hover:grayscale-0"
               alt="partner"
               width="250"
               height="200"
@@ -159,8 +190,8 @@ const Home: NextPage = () => {
             />
           </div>
         </section>
-        <Footer />
       </PageLayout>
+      <Footer />
     </>
   );
 };
