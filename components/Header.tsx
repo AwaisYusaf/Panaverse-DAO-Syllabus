@@ -17,7 +17,7 @@ function Example() {
         <Menu.Button>
           <div className="flex">
             <div>
-              <button className="relative group">
+              <div className="relative group">
                 <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all bg-white ring-0 ring-gray-300 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md">
                   <div className="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden">
                     <div className="bg-red-500 h-[2px] w-7 transform transition-all duration-300 origin-left group-focus:translate-y-6 delay-100"></div>
@@ -30,7 +30,7 @@ function Example() {
                     </div>
                   </div>
                 </div>
-              </button>
+              </div>
             </div>
           </div>
         </Menu.Button>
