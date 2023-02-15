@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import PageLayout from "../../components/PageLayout";
+import Footer from "../../components/Footer";
 function Contact() {
   return (
     <>
@@ -10,6 +11,7 @@ function Contact() {
       <PageLayout>
         <div>Contact</div>
       </PageLayout>
+      <Footer />
     </>
   );
 }
