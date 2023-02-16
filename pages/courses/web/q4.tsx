@@ -122,71 +122,150 @@ function QuarterFour() {
           <h3 className="mt-6 text-lg font-semibold">
             5. Blockchain Project: Create a Token and Launch ICO/IEO/IDO
           </h3>
-          <p>
+
+          <div className="w-fit lg:w-3/4">
             <p>
-              {" "}
               As you probably know, the ICO (Initial Coin Offering) industry has
               been booming, and its completely reinventing the way new startups
               kickstart themselves. In fact, have a look at Wikipedias list of
-              highest crowdfunding projects
-              https://en.wikipedia.org/wiki/List_of_highest-funded_crowdfunding_projects,
-              and you will notice that blockchain projects absolutely dominate
+              highest crowdfunding{" "}
+              <a
+                className="underline text-blue-900"
+                href="https://en.wikipedia.org/wiki/List_of_highest-funded_crowdfunding_projects"
+              >
+                projects
+              </a>
+              , and you will notice that blockchain projects absolutely dominate
               the list.
             </p>
 
             <p>
-              Understand the difference between IDO vs. IEO vs. ICO
-              https://phemex.com/blogs/what-is-a-dex-ido
+              Understand the difference between
+              <a
+                className="underline text-blue-900"
+                href="https://phemex.com/blogs/what-is-a-dex-ido"
+              >
+                {" "}
+                IDO vs. IEO vs. ICO
+              </a>
             </p>
 
             <p>Also check these links for latest listings:</p>
 
-            <p>ICO list at ICO Drops https://icodrops.com</p>
             <p>
-              ICO List of Best New Initial Coin Offerings
-              https://topicolist.com/
+              ICO list at ICO Drops{" "}
+              <a
+                className="underline text-blue-900"
+                href="https://icodrops.com"
+              >
+                (View)
+              </a>
+            </p>
+            <p>
+              ICO List of
+              <a
+                className="underline text-blue-900"
+                href="https://topicolist.com/"
+              >
+                Best New Initial Coin Offerings
+              </a>
             </p>
             <p>
               Top-Rated Crypto Token Sales: List of New ICOs, STOs, IEOs and
-              IDOsTop-Rated Crypto Token Sales: List of New ICOs, STOs, IEOs and
-              IDOs https://cryptototem.com/ico-list/
+              IDOsTop-Rated Crypto Token Sales:
+              <a
+                className="underline text-blue-900"
+                href="https://cryptototem.com/ico-list/"
+              >
+                List of New ICOs, STOs, IEOs and IDOs
+              </a>
             </p>
 
-            <p>ICO List Online https://www.icolistingonline.com</p>
-            <p>Binance IEO List https://coincodex.com/ieo-list/binance/</p>
             <p>
-              Binance Launchpad
-              https://www.coinspeaker.com/ieo/platform/binance-launchpad/
+              ICO{" "}
+              <a
+                className="underline text-blue-900"
+                href="https://www.icolistingonline.com"
+              >
+                List Online
+              </a>
+            </p>
+            <p>
+              Binance{" "}
+              <a
+                className="underline text-blue-900"
+                href="https://coincodex.com/ieo-list/binance/"
+              >
+                IEO List
+              </a>
+            </p>
+            <p>
+              Binance{" "}
+              <a
+                className="underline text-blue-900"
+                href="https://www.coinspeaker.com/ieo/platform/binance-launchpad/"
+              >
+                Launchpad
+              </a>
             </p>
 
-            <p>IEO List https://icomarks.com/ieo</p>
-            <p>Polkastarter https://polkastarter.com</p>
+            <a
+              className="underline text-blue-900"
+              href="https://icomarks.com/ieo"
+            >
+              IEO List
+            </a>
+            <a
+              className="underline text-blue-900"
+              href="https://polkastarter.com"
+            >
+              Polkastarter{" "}
+            </a>
             <p>Project Part 1: How to Launch a IEO on Binance Launchpad</p>
 
             <p>
-              {" "}
-              Read How to Launch an IEO
-              https://appinventiv.com/blog/how-to-launch-an-ieo/
+              Read How to
+              <a
+                className="underline text-blue-900"
+                href="https://appinventiv.com/blog/how-to-launch-an-ieo/"
+              >
+                Launch an IEO
+              </a>
             </p>
 
             <p>
               Your first task of the project is to make a google slides
-              presentation on how to start a IEO on the Binance Launch Pad
-              https://www.binance.com/en/support/faq/94ed108ce89d44ab8602aa3c476dfb04
+              presentation on how to start a IEO on the
+              <a
+                className="underline text-blue-900"
+                href="https://www.binance.com/en/support/faq/94ed108ce89d44ab8602aa3c476dfb04"
+              >
+                Binance Launch Pad
+              </a>
             </p>
 
             <p>Note: Also document the alternatives to Binance Launchpad.</p>
             <p>Project Part 2: How to Launch a IDO on Polkastarter</p>
 
             <p>
-              Review the [list of top fundraising platforms
-              https://cryptorank.io/fundraising-platforms
+              Review the list of{" "}
+              <a
+                className="underline text-blue-900"
+                href="https://cryptorank.io/fundraising-platforms"
+              >
+                top fundraising platforms
+              </a>
             </p>
 
             <p>
               Your second task of the project is to make a google slides
-              presentation on how to start a IDO on the Polkastarter
-              https://polkastarter.com/
+              presentation on how to start a IDO on the
+              <a
+                className="underline text-blue-900"
+                href="https://polkastarter.com/"
+              >
+                Polkastarter
+              </a>
             </p>
 
             <p>Project Part 3: Create a Pako Token</p>
@@ -236,9 +315,15 @@ function QuarterFour() {
             </p>
 
             <p>
-              You can use the openzeppelin crowd sale contracts
-              https://docs.openzeppelin.com/contracts/4.x/crowdsales however you
-              will have to update the code to the latest solidity version.
+              You can use the
+              <a
+                className="underline text-blue-900"
+                href="https://docs.openzeppelin.com/contracts/4.x/crowdsales"
+              >
+                openzeppelin crowd sale contracts
+              </a>
+              however you will have to update the code to the latest solidity
+              version.
             </p>
 
             <p>
@@ -249,8 +334,13 @@ function QuarterFour() {
             </p>
             <p>
               Note: Before you get started writing the token contract we suggest
-              you review the access control
-              https://docs.openzeppelin.com/contracts/4.x/access-control
+              you review the l
+              <a
+                className="underline text-blue-900"
+                href="https://docs.openzeppelin.com/contracts/4.x/access-control"
+              >
+                access contro
+              </a>
             </p>
 
             <p>Project Part 5: Trying it with MetaMask</p>
@@ -300,15 +390,24 @@ function QuarterFour() {
             </p>
 
             <p>Project Part 6: Trying it with Multisignature Wallets</p>
-            <p>
+            <a
+              className="underline text-blue-900"
+              href="https://www.coindesk.com/tech/2020/11/10/multisignature-wallets-can-keep-yo
+              ur-coins-safer-if-you-use-them-right/"
+            >
               Read
-              https://www.coindesk.com/tech/2020/11/10/multisignature-wallets-can-keep-yo
-              ur-coins-safer-if-you-use-them-right/
-            </p>
+            </a>
 
             <p>
-              Now use Gnosis Safe https://gnosis-safe.io/ with multi-sigs to do
-              what you did in the last part.
+              Now use{" "}
+              <a
+                className="underline text-blue-900"
+                href="https://gnosis-safe.io/"
+              >
+                {" "}
+                Gnosis Safe{" "}
+              </a>{" "}
+              with multi-sigs to do what you did in the last part.
             </p>
 
             <p>Project Part 7: Sending Tokens using Ethers.js</p>
@@ -319,39 +418,69 @@ function QuarterFour() {
             </p>
 
             <p>
-              You may follow this tutorial
-              https://ethereum.org/en/developers/tutorials/send-token-etherjs/
+              You may follow this{" "}
+              <a
+                className="underline text-blue-900"
+                href="https://ethereum.org/en/developers/tutorials/send-token-etherjs/"
+              >
+                tutorial
+              </a>
             </p>
 
             <p>Project Part 8 Advance: Create, Deploy, Mint, and Sell an NFT</p>
 
             <p>
-              Read this NFT tutorial series
-              https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/
+              Read this{" "}
+              <a
+                className="underline text-blue-900"
+                href="https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/"
+              >
+                {" "}
+                NFT tutorial series
+              </a>
             </p>
 
             <p>
-              Create a NFT contract using the OpenZepplen ERC721 NFT Standard
-              https://docs.openzeppelin.com/contracts/4.x/erc721
+              Create a NFT contract using the OpenZepplen ERC721 NFT Standard.
+              <a
+                className="underline text-blue-900"
+                href="https://docs.openzeppelin.com/contracts/4.x/erc721
+   "
+              >
+                Read more
+              </a>
             </p>
 
             <p>
-              You may use the Preset ERC721 contract
-              https://docs.openzeppelin.com/contracts/4.x/erc721#Presets
+              You may use the{" "}
+              <a
+                className="underline text-blue-900"
+                href="https://docs.openzeppelin.com/contracts/4.x/erc721#Presets"
+              >
+                Preset ERC721 contract
+              </a>
             </p>
 
             <p>
               Deploy your NFT contract on a testnet, mint it, and view it on the
-              MetaMask wallet and list it on OpenSea Marketplace
-              https://opensea.io/ for sale.
+              MetaMask wallet and list it on{" "}
+              <a className="underline text-blue-900" href="https://opensea.io/">
+                OpenSea Marketplace{" "}
+              </a>
+              for sale.
             </p>
 
             <p>
-              Implement a ERC721 Market
-              https://ethereum.org/en/developers/tutorials/how-to-implement-an-erc721-mar
-              ket/
+              Implement a{" "}
+              <a
+                className="underline text-blue-900"
+                href="https://ethereum.org/en/developers/tutorials/how-to-implement-an-erc721-mar
+              ket/"
+              >
+                ERC721 Market
+              </a>
             </p>
-          </p>
+          </div>
         </div>
       </div>
     </CoursePageLayout>

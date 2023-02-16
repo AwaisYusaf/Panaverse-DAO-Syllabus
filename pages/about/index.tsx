@@ -9,7 +9,7 @@ function About() {
         <title>Panaverse | About</title>
       </Head>
       <PageLayout>
-        <div>About</div>
+        <section className="min-h-screen">About Page</section>
       </PageLayout>
       <Footer />
     </>

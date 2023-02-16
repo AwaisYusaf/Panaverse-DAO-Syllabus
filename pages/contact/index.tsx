@@ -9,7 +9,7 @@ function Contact() {
         <title>Panaverse | Contact</title>
       </Head>
       <PageLayout>
-        <div>Contact</div>
+        <section className="min-h-screen">Contact</section>
       </PageLayout>
       <Footer />
     </>

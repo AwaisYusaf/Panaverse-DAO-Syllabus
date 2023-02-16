@@ -153,29 +153,32 @@ function Footer() {
               Specializations
             </h6>
             <p className="mb-4">
-              <a href="#!" className="text-gray-600">
+              <Link href="/courses/web" className="text-gray-600">
                 Web 3.0 & Metaverse
-              </a>
+              </Link>
             </p>
             <p className="mb-4">
-              <a href="#!" className="text-gray-600">
+              <Link
+                href="/courses/artificial-intelligence"
+                className="text-gray-600"
+              >
                 Artificial Intelligence & Deep Learning
-              </a>
+              </Link>
             </p>
             <p className="mb-4">
-              <a href="#!" className="text-gray-600">
+              <Link href="/courses/cnc" className="text-gray-600">
                 Cloud-Native Computing
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#!" className="text-gray-600">
+              <Link href="/courses/iot" className="text-gray-600">
                 Ambient Computing & IoT
-              </a>
+              </Link>
             </p>
             <p className="mt-4">
-              <a href="#!" className="text-gray-600">
+              <Link href="/courses/bioinformatics" className="text-gray-600">
                 Genomics & Bioinformatics
-              </a>
+              </Link>
             </p>
           </div>
           <div className="">

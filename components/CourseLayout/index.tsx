@@ -111,7 +111,9 @@ function Course({ children }: any) {
             </div>
           </div>
         </div>
-        <div className={styles.container}>{children}</div>
+        <div className={styles.container}>
+          <div className="w-full">{children}</div>
+        </div>
       </div>
     </>
   );
