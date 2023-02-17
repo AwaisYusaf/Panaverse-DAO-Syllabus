@@ -170,19 +170,19 @@ technologies and tools, including Linux, Python, APIs, and Git"
             />
           </div>
 
-          <h1 className="text-5xl font-bold text-center mt-20">
+          <h1 className="text-5xl font-bold text-center my-20">
             <span className="text-red-700">Strategic</span> Partners
           </h1>
-          <div className="flex mt-20 flex-wrap justify-center items-center">
+          <div className="flex flex-wrap justify-center items-center">
             <Image
               alt="partner"
               width="220"
               height="200"
               src="/assets/panacloud.svg"
-              className="mx-20 opacity-50 hover:opacity-100 transition-all my-5 grayscale hover:grayscale-0"
+              className="m-20 opacity-50 hover:opacity-100 transition-all my-5 grayscale hover:grayscale-0"
             />
             <Image
-              className="mx-20 opacity-50 hover:opacity-100 transition-all w-56 md:w-fit grayscale hover:grayscale-0"
+              className="m-20 opacity-50 hover:opacity-100 transition-all w-56 md:w-fit grayscale hover:grayscale-0"
               alt="partner"
               width="250"
               height="200"
@@ -193,7 +193,7 @@ technologies and tools, including Linux, Python, APIs, and Git"
       </PageLayout>
       <Footer />
     </>
-  );
-};
+  )
+}
 
 export default Home;
